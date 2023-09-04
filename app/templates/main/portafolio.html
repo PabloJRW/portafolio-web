@@ -1,0 +1,52 @@
+<section class="container p-5" id="portafolio">
+    <h2 class="text-center">Mis Proyectos</h2>
+    <hr class="mb-5">
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <div class="col">
+            <div class="card">
+                <img src="{{ url_for('static', filename='img/restapi.png')}}" alt="" 
+                class="d-block mx-lg-auto img-fluid">
+                <div class="card-body">
+                    <img src="{{ url_for('static', filename='img/proyectos/api-rest/api.png')}}" alt="api_icon" height="25px" width="25px">
+                    <h5 class="card-title">API REST</h5>                                
+                    <p class="card-text fw-light">API REST que proporciona acceso a datos y funcionalidades 
+                        a través de solicitudes HTTP. Utiliza estándares RESTful para la comunicación 
+                        y ofrece una interfaz para interactuar con recursos, como obtener, crear, 
+                        actualizar y eliminar datos de manera programática</p>
+                    <a href="#" class="nav-link text-primary">Link aquí</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="{{ url_for('static', filename='img/proyectos/crud-flask/formulario.png')}}" alt="" 
+                class="d-block mx-lg-auto img-fluid">
+                <div class="card-body">
+                    <h5 class="card-title">CRUD Web</h5>
+                    <p class="card-text fw-light">CRUD web (Create, Read, Update, Delete) es una aplicación web que 
+                        permite a los usuarios crear, leer, actualizar y eliminar datos en una base de datos. 
+                        Esta aplicación proporciona una interfaz amigable que permite realizar estas operaciones 
+                        básicas en los registros de la base de datos a través de una página web.</p>
+                    <a href="#" class="nav-link text-primary">Link aquí</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="{{ url_for('static', filename='img/3.jpg')}}" alt="" 
+                class="d-block mx-lg-auto img-fluid">
+                <div class="card-body">
+                    <h5 class="card-title">Rest-API</h5>
+                    <p class="card-text fw-light">Proyecto que consiste en una Restful API</p>
+                    <a href="#" class="nav-link text-primary">Link aquí</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>

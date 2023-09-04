@@ -1,0 +1,22 @@
+{% extends 'main/base.html' %}
+
+{% block title %} Bienvenido! {% endblock %}
+
+{% block content %}
+
+<!-- Menú de navegación -->
+{% include 'main/nav.html' %} 
+
+<!-- Home-->
+{% include 'main/home.html' %}
+
+<!-- Sección de proyectos -->
+{%include 'main/portafolio.html' %}
+
+<!-- Sección de contacto -->
+{% include 'main/contacto.html' %}
+
+{% include 'main/footer.html' %}
+
+
+{% endblock %}
