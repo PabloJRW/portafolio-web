@@ -6,9 +6,25 @@
 
         <div class="col">
             <div class="card">
+                <img src="{{ url_for('static', filename='img/proyectos/despliegue/app.png')}}" alt="" 
+                class="d-block mx-lg-auto img-fluid">
+                <div class="card-body bg-light">
+                    <h5 class="card-title">Despliegue Modelo Machine Learning</h5>                                
+                    <p class="card-text fw-light">Este proyecto implica el despliegue de una aplicación web que 
+                        proporciona a los usuarios una interfaz gráfica intuitiva para ingresar variables 
+                        que posteriormente son sometidas a un modelo de machine learning que realiza un análisis y devuelve una 
+                        predicción basada en los parámetros proporcionados.</p>
+                    <a href="{{ url_for('main.proyecto_1') }}" class="nav-link text-primary">Link aquí</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col">
+            <div class="card">
                 <img src="{{ url_for('static', filename='img/restapi.png')}}" alt="" 
                 class="d-block mx-lg-auto img-fluid">
-                <div class="card-body">
+                <div class="card-body bg-light">
                     <img src="{{ url_for('static', filename='img/proyectos/api-rest/api.png')}}" alt="api_icon" height="25px" width="25px">
                     <h5 class="card-title">API REST</h5>                                
                     <p class="card-text fw-light">API REST que proporciona acceso a datos y funcionalidades 
@@ -24,7 +40,7 @@
             <div class="card">
                 <img src="{{ url_for('static', filename='img/proyectos/crud-flask/formulario.png')}}" alt="" 
                 class="d-block mx-lg-auto img-fluid">
-                <div class="card-body">
+                <div class="card-body bg-light">
                     <h5 class="card-title">CRUD Web</h5>
                     <p class="card-text fw-light">CRUD web (Create, Read, Update, Delete) es una aplicación web que 
                         permite a los usuarios crear, leer, actualizar y eliminar datos en una base de datos. 
@@ -39,7 +55,7 @@
             <div class="card">
                 <img src="{{ url_for('static', filename='img/3.jpg')}}" alt="" 
                 class="d-block mx-lg-auto img-fluid">
-                <div class="card-body">
+                <div class="card-body bg-light">
                     <h5 class="card-title">Rest-API</h5>
                     <p class="card-text fw-light">Proyecto que consiste en una Restful API</p>
                     <a href="#" class="nav-link text-primary">Link aquí</a>
